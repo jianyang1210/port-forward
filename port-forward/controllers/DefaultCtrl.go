@@ -1,7 +1,7 @@
 package controllers
 
 import (
-	"github.com/jianyang1210/port-forward/models"
+	"github.com/jianyang1210/port-forward/port-forward/models"
 
 	"github.com/astaxie/beego"
 )

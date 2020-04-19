@@ -1,7 +1,7 @@
 package BaseController
 
 import (
-	"github.com/jianyang1210/port-forward/utils"
+	"github.com/jianyang1210/port-forward/port-forward/utils"
 
 	"github.com/astaxie/beego"
 	"github.com/astaxie/beego/logs"

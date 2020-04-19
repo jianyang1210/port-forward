@@ -2,8 +2,8 @@ package services
 
 import (
 	"errors"
-	"github.com/jianyang1210/port-forward/models"
-	"github.com/jianyang1210/port-forward/utils"
+	"github.com/jianyang1210/port-forward/port-forward/models"
+	"github.com/jianyang1210/port-forward/port-forward/utils"
 	"math"
 	"time"
 

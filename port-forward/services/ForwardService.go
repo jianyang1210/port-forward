@@ -3,8 +3,8 @@ package services
 import (
 	"bufio"
 	"github.com/jianyang1210/forward-core/common"
-	"github.com/jianyang1210/port-forward/models"
-	"github.com/jianyang1210/port-forward/utils"
+	"github.com/jianyang1210/port-forward/port-forward/models"
+	"github.com/jianyang1210/port-forward/port-forward/utils"
 	"io"
 	"net"
 	"strings"

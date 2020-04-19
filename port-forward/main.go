@@ -2,8 +2,8 @@ package main
 
 import (
 	"encoding/gob"
-	"github.com/jianyang1210/port-forward/models"
-	_ "github.com/jianyang1210/port-forward/routers"
+	"github.com/jianyang1210/port-forward/port-forward/models"
+	_ "github.com/jianyang1210/port-forward/port-forward/routers"
 
 	"github.com/astaxie/beego"
 	"github.com/astaxie/beego/logs"

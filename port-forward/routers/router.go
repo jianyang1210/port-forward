@@ -1,7 +1,7 @@
 package routers
 
 import (
-	"github.com/jianyang1210/port-forward/controllers"
+	"github.com/jianyang1210/port-forward/port-forward/controllers"
 
 	"github.com/astaxie/beego"
 )

@@ -1,11 +1,11 @@
 package controllers
 
 import (
-	"github.com/jianyang1210/port-forward/controllers/base"
-	"github.com/jianyang1210/port-forward/models"
-	"github.com/jianyang1210/port-forward/utils"
+	"github.com/jianyang1210/port-forward/port-forward/controllers/base"
+	"github.com/jianyang1210/port-forward/port-forward/models"
+	"github.com/jianyang1210/port-forward/port-forward/utils"
 
-	"github.com/jianyang1210/port-forward/services"
+	"github.com/jianyang1210/port-forward/port-forward/services"
 
 	"github.com/astaxie/beego/logs"
 )
