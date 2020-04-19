@@ -2,11 +2,11 @@ package services
 
 import (
 	"bufio"
-	"forward-core/common"
+	"github.com/jianyang1210/forward-core/common"
+	"github.com/jianyang1210/port-forward/models"
+	"github.com/jianyang1210/port-forward/utils"
 	"io"
 	"net"
-	"port-forward/models"
-	"port-forward/utils"
 	"strings"
 	"sync"
 	"time"

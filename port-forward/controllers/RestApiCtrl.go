@@ -1,9 +1,9 @@
 package controllers
 
 import (
-	"port-forward/controllers/base"
-	"port-forward/models"
-	"port-forward/services"
+	"github.com/jianyang1210/port-forward/controllers/base"
+	"github.com/jianyang1210/port-forward/models"
+	"github.com/jianyang1210/port-forward/services"
 	"runtime"
 	"time"
 )

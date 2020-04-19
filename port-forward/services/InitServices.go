@@ -1,7 +1,7 @@
 package services
 
 import (
-	"forward-core/common"
+	"github.com/jianyang1210/port-core/common"
 
 	"github.com/astaxie/beego"
 	"github.com/astaxie/beego/orm"

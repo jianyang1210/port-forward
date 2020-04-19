@@ -1,6 +1,6 @@
 package models
 
-import "port-forward/utils"
+import "github.com/jianyang1210/port-forward/utils"
 
 type PageParam struct {
 	PIndex int64
