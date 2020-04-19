@@ -1,4 +1,4 @@
-module github.com/jianyang1210/port-forward/port-forward
+module github.com/jianyang1210/port-forward
 
 go 1.12
 
