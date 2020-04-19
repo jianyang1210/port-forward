@@ -1,7 +1,7 @@
 package services
 
 import (
-	"github.com/jianyang1210/port-core/common"
+	"github.com/jianyang1210/port-forward/forward-core/common"
 
 	"github.com/astaxie/beego"
 	"github.com/astaxie/beego/orm"
@@ -23,6 +23,8 @@ func init() {
 	if appStore == "mysql" {
 		//_ "github.com/go-sql-driver/mysql"
 		dataSource := beego.AppConfig.String("mysql.url")
+
+		//这里修改为
 		orm.RegisterDriver("mysql", orm.DRMySQL)
 		orm.RegisterDataBase("default", "mysql", dataSource)
 	} else {
